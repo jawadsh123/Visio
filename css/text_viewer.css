@@ -1,0 +1,60 @@
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -90;
+    margin: 0px !important;
+}
+
+.overlay_active{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.overlay div{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: scale(4);
+}
+
+
+.fixed-action-btn{
+    z-index: -1;
+}
+
+
+.lang_name{
+    height: 50px;
+    font-size: 1.5em;
+}
+
+.search{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 50px !important;
+}
+
+.translation_panel{
+    margin-top: 50px !important;
+}
+
+.logo{
+    width:90px !important;
+    padding-right: 0;
+}
+
+.brand-logo{
+    font-family: 'Lato', sans-serif;
+}
+
+textarea{
+    height: 400px;
+}
+
+.fixed-action-btn{
+    z-index: 10;
+}
