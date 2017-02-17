@@ -1,0 +1,81 @@
+
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label ,.input-field input[type=file]:focus + label {
+     color: white;
+}
+
+.input-field input[type=text]:focus, .input-field input[type=password]:focus, .input-field input[type=email]:focus , .input-field input[type=file]:focus {
+ border-bottom: 1px solid white;
+ box-shadow: 0 1px 0 0 white;
+}
+
+
+.input-field .prefix.active{
+    color: white;
+}
+
+.fileActive, .fileActive:hover{
+    background-color: #2196f3 !important;
+}
+
+td i{
+    color: #fafafa;
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+
+.fixed-action-btn{
+    margin: 30px;
+}
+
+.btn-floating input{
+    opacity: 0;
+}
+
+.btn-floating input i {
+    z-index: 20;
+}
+
+h5{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.file_upload{
+    /*background-color: red !important;*/
+    padding: 30px !important;
+    margin-right: 10px !important;
+}
+
+
+.file_names{
+    margin-left: 30px !important;
+}
+
+.results{
+    height: 0px;
+    width: 0px;
+    background-color: white;
+    color: white;
+    transition: all 300ms;
+}
+
+.success{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+
+
+.logo{
+    width:90px !important;
+    padding-right: 0;
+}
+
+.brand-logo{
+    font-family: 'Lato', sans-serif;
+}

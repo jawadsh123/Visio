@@ -1,0 +1,17 @@
+
+.tabs .tab a,.tabs .tab a:hover, .tabs .tab a.active{
+    color: #2196F3;
+}
+
+.tabs .indicator{
+    color: blue;
+}
+
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label {
+     color: #2196F3;
+}
+
+.input-field input[type=text]:focus, .input-field input[type=password]:focus, .input-field input[type=email]:focus {
+ border-bottom: 1px solid #2196F3;
+ box-shadow: 0 1px 0 0 #2196F3;
+}
